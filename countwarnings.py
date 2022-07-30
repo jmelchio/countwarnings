@@ -26,7 +26,7 @@ def process_directory(directory=None):
 
 def count_warnings(*args):
     directory = None
-    if (len(args)) is 0:
+    if (len(args)) == 0:
         if (len(sys.argv)) < 2:
             print('Usage %s DIRECTORY' % sys.argv[0])
             exit(1)
